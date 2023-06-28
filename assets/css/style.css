@@ -1,0 +1,504 @@
+/*==============================
+Developed by : Shovon Kumar
+Author : Shovon Kumar
+Contact : shovon.cse2@gmail.com
+==============================*/
+
+/* Universal CSS Start */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+h2 {
+  font-size: 2.4rem;
+  color: #222222;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+img {
+  vertical-align: middle;
+}
+/* Universal CSS End */
+
+/* Back to top button Start */
+.back_to_top {
+  color: #fff;
+  background: #35c2f8;
+  padding: 0.4rem 0.7rem;
+  border: none;
+  border-radius: 0.3rem;
+  position: fixed;
+  bottom: 1.2rem;
+  left: 1.2rem;
+  transition: 0.3s;
+  display: none;
+  z-index: 10;
+}
+.back_to_top:hover {
+  color: #222;
+}
+/* Back to top button End */
+
+/* Navbar Part Start */
+.navbar_part {
+  position: fixed;
+  width: 100%;
+  background: transparent;
+  z-index: 20;
+}
+.navbar {
+  padding-top: 1.6rem;
+  padding-bottom: 0.8rem;
+}
+.nav_bg_sticky {
+  transition: 0.4s;
+  background: #111;
+  padding: 0.7rem 0 !important;
+}
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.29rem 1rem;
+  border: 0.05rem solid transparent;
+  border-radius: 1.4rem;
+  transition: 0.3s;
+  margin-left: 0.65rem;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #35c2f8;
+  border-color: #35c2f8;
+}
+.navbar-toggler {
+  color: #35c2f8;
+  border: 1px solid #35c2f8;
+}
+.navbar-toggler:focus {
+  border: 1px solid transparent;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1.4em;
+  vertical-align: middle;
+  background-image: unset;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.navbar-toggler-icon i {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  line-height: 1.15;
+}
+/* Navbar Part End  */
+
+/* Hero Part Start  */
+.hero_part {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../img/hero_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 12rem;
+  padding-bottom: 8rem;
+  overflow: hidden;
+}
+.hero_content .hero h1 {
+  color: #fff;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.hero_content .hero img {
+  margin: 1.8rem 0;
+}
+.hero_content .hero p {
+  width: 40%;
+  margin: 0 auto;
+  color: #cccccc;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+/* Hero Part End  */
+
+/* Service Part Start */
+.service_part {
+  padding: 4.5rem 0;
+  overflow: hidden;
+}
+.service_content .service_heading {
+  margin-bottom: 3rem;
+}
+.service_content i {
+  font-size: 2.75rem;
+  color: #dddddd;
+}
+.service_content h4 {
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 2rem;
+}
+.service_content p {
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  color: #888888;
+}
+/* Service Part End  */
+
+/* Expertise Part Start */
+.expertise_part {
+  background: #f7f7f7;
+  overflow: hidden;
+}
+.expertise_text {
+  padding-top: 4.4rem;
+  padding-bottom: 4rem;
+}
+.expertise_content .expertise_text .expertise_heading p {
+  width: 90%;
+  margin: 1rem 0;
+  color: #777777;
+  font-size: 0.96rem;
+}
+.expertise_content .expertise_text .expertise_items {
+  margin-top: 3rem;
+}
+.expertise_content .expertise_text .expertise_items i {
+  font-size: 1.8rem;
+  color: #777777;
+}
+.expertise_content .expertise_text .expertise_items h6 {
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 0.95rem;
+}
+.expertise_content .expertise_text .expertise_items p {
+  color: #777777;
+  font-size: 0.95rem;
+}
+.expertise_content .expertise_text .btn-expertise {
+  margin-top: 1.8rem;
+  color: #fff;
+  background: #35c2f8;
+  border: 0;
+  border: 1px solid transparent;
+  border-radius: 1.7rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.9rem 1.65rem;
+  margin-left: 0.5rem;
+  transition: 0.3s;
+}
+.expertise_content .expertise_text .btn-expertise:hover {
+  border-color: #35c2f8;
+  color: #222222;
+  background: #fff;
+}
+.expertise_content .expertise_img {
+  height: 100%;
+  width: auto;
+}
+/* Expertise Part End  */
+
+/* Portfolio Part Start  */
+.portfolio_part {
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
+  background: #fff;
+  overflow: hidden;
+}
+.portfolio_content .portfolio_heading p {
+  color: #777777;
+  font-size: 0.95rem;
+  margin-top: 1.9rem;
+}
+.portfolio_content .portfolio_text .portfolio_item {
+  margin-top: 2.5rem;
+}
+.portfolio_content .portfolio_text .portfolio_item i {
+  font-size: 1.8rem;
+  color: #777777;
+}
+.portfolio_content .portfolio_text .portfolio_item h6 {
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 0.95rem;
+}
+.portfolio_content .portfolio_text .portfolio_item p {
+  color: #777777;
+  font-size: 0.95rem;
+}
+.portfolio_content .portfolio_text .portfolio_item .item {
+  margin-bottom: 1.25rem;
+}
+.portfolio_content .portfolio_text .portfolio_item .item:last-child {
+  margin-bottom: 0;
+}
+/* Portfolio Part End  */
+
+/* Work Part Start  */
+.work_part {
+  overflow: hidden !important;
+}
+.work_content .work_image {
+  position: relative;
+}
+.work_content .work_image:hover .img_hover {
+  opacity: 1;
+  visibility: visible;
+}
+.work_content .work_image .img_hover {
+  height: 100%;
+  width: 100%;
+  background: #35c1f896;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.work_content .work_image .hover_icon a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #000;
+  padding: 0.5rem 1.2rem;
+  background: transparent;
+  text-transform: uppercase;
+}
+/* Work Part End  */
+
+/* About Part Start  */
+.about_part {
+  padding-top: 5.5rem;
+  padding-bottom: 4.5rem;
+  overflow: hidden;
+}
+.about_content .about_item {
+  margin-top: 4.5rem;
+}
+.about_content .about_item .about {
+  position: relative;
+}
+.about_content .about_item .about_img {
+  height: 12rem;
+  width: auto;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.about_content .about_item .about_img:last-child {
+  margin-bottom: 0;
+}
+.about_content .about_item h6 {
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 0.96rem;
+  letter-spacing: 0.08rem;
+  margin-bottom: 0.25rem;
+}
+.about_content .about_item p {
+  color: #777777;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.about_content .about_item .about .about_text_1 {
+  text-align: right;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: calc(50% + 8.5rem);
+}
+.about_content .about_item .about .about_text_2 {
+  text-align: left;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: calc(50% + 8.5rem);
+}
+/* About Part End */
+
+/* Team Part Start */
+.team_part {
+  background: #f7f7f7;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  overflow: hidden;
+}
+.team_content .team {
+  margin-top: 3rem;
+}
+.team_content .team h4 {
+  color: #222222;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+.team_content .team h6 {
+  color: #777777;
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.team_content .team .links ul {
+  padding: 0;
+}
+.team_content .team .links ul li {
+  height: 2.5rem;
+  width: 2.5rem;
+  background: #000;
+  border-radius: 50%;
+  margin: 0 0.4rem;
+  transition: 0.3s;
+}
+.team_content .team .links ul li:hover {
+  background-color: #35c2f8;
+}
+.team_content .team .links a i {
+  color: #fff;
+  font-size: 1.05rem;
+  line-height: 2.3rem;
+  transition: 0.3s;
+}
+.team_content .team_p {
+  width: 60%;
+  margin-top: 2rem;
+  color: #777777 !important;
+  font-size: 0.9rem;
+}
+
+.team_content .swiper-pagination {
+  margin-top: 1.5rem !important;
+  position: unset;
+}
+/* Team Part End */
+
+/* Contact Part Start */
+.contact_part {
+  background: #111111;
+  padding-top: 4.5rem;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+.contact_part::after {
+  content: "";
+  display: block;
+  height: 0.05rem;
+  width: 70%;
+  background: #fff;
+  margin: auto;
+  margin-top: 3.2rem;
+  text-align: center;
+}
+
+.contact_content .contact {
+  width: 90%;
+  margin-left: auto;
+}
+.contact_content .form {
+  margin-top: 0.5rem;
+  width: 90%;
+  margin-right: auto;
+}
+
+.contact_content .contact h2 {
+  color: #fff;
+  margin-bottom: 1.1rem;
+}
+.contact_content .contact p {
+  color: #fff;
+  width: 90%;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+.contact_content .contact .contact_link {
+  margin-top: 2.3rem;
+}
+.contact_content .contact .contact_link ul {
+  padding: 0;
+}
+.contact_content .contact .contact_link ul li {
+  margin-bottom: 1.5rem;
+}
+.contact_content .contact .contact_link ul li p {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.contact_content .contact .contact_link i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.contact_content .form input,
+.contact_content .form textarea {
+  width: 95%;
+  background: #fff;
+  padding: 0.7rem;
+  border: 3px solid transparent;
+  margin-bottom: 0.9rem;
+  border-radius: 0.5rem;
+}
+.contact_content .form input:focus,
+.contact_content .form textarea:focus {
+  border: 3px solid #35c2f8;
+}
+.contact_content .form .btn-contact {
+  color: #fff;
+  background: #35c2f8;
+  border: 0;
+  border: 2px solid transparent;
+  border-radius: 1.7rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0.8rem 2.25rem;
+  transition: 0.3s;
+}
+.contact_content .form .btn-contact:hover {
+  border-color: #35c2f8;
+  color: #222222;
+  background: #fff;
+}
+/* Contact Part End */
+
+/* Footer Part Start */
+.footer_part {
+  background: #111111;
+  padding: 1.5rem 0;
+}
+.footer p {
+  margin-bottom: 0;
+  font-size: 0.85rem;
+}
+.footer p a {
+  color: #35c2f8;
+}
+.footer p a:hover {
+  color: #2785aa;
+}
+/* Footer Part End */

@@ -1,0 +1,225 @@
+
+/* Medium Screen */
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+
+    h2 {
+        font-size: 2.3rem;
+    }
+    /* navbar part */
+    .navbar {
+        background: #111;
+        padding: 0.7rem 0 !important;
+    }
+    .navbar .navbar-nav {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.2rem 0;
+    }  
+
+    /* hero part */
+    .hero_content .hero h1 {
+        font-size: 2.7rem;
+    }
+    .hero_content .hero p {
+        width: 60%;
+    }
+
+    /* service part */
+    .service_content p {
+        padding: 0.5rem 0;
+    }
+
+    /* expertise part */
+    .expertise_content .expertise_img {
+        display: none;
+    }
+    .portfolio_content .portfolio_img {
+        display: none;
+    }
+
+    /* about_part */
+    .about_content .about_item .about_img {
+        height: 11rem;
+        width: auto;
+    }
+    .about_content .about_item .about .about_text_1 {
+        width: 35%;
+        right: calc(50% + 8rem);
+    }
+    .about_content .about_item .about .about_text_2 {
+        width: 35%;
+        left: calc(50% + 8rem);
+    }
+
+    /* team part */
+    .team_content .team_p {
+        width: 80%;
+        font-size: 0.85rem;
+    }
+
+    /* contact */
+    .contact_content .contact {
+        margin-right: auto;
+        margin-left: 0;
+    }
+}
+
+/* Small Screen */
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    /* navbar part */
+    .navbar {
+        background: #111;
+        padding: 0.7rem 0 !important;
+    }
+    .navbar .navbar-nav {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.2rem 0;
+    }
+
+    /* hero part */
+    .hero_content .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero_content .hero p {
+        width: 70%;
+    }
+
+    /* expertise part */
+    .expertise_content .expertise_img {
+        display: none;
+    }
+    .portfolio_content .portfolio_img {
+        display: none;
+    }
+
+    /* about_part */
+    .about_content .about_item .about_img {
+        height: 11rem;
+        width: auto;
+        margin-bottom: 14rem;
+    }
+    .about_content .about_item .about .about_text_1 {
+        text-align: center;
+        top: calc(100% + 2.5rem);
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about_content .about_item .about .about_text_2 {
+        text-align: center;
+        top: calc(100% + 2.5rem);
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about_content .about_item .about_img:last-child {
+        margin-bottom: 0;
+    }
+
+    /* team part */
+    .team_content .team_p {
+        width: 90%;
+        font-size: 0.85rem;
+    }
+
+    /* contact */
+    .contact_content .contact {
+        margin-right: auto;
+        margin-left: 0;
+    }	
+}
+
+/* Extra Small */
+
+@media (max-width: 575.99px) {
+
+    h2 {
+        font-size: 2.1rem;
+    }
+
+	/* navbar part */
+    .navbar {
+        background: #111;
+        padding: 0.7rem 0 !important;
+    }
+    .navbar .navbar-nav {
+        margin-top: 0.5rem;
+    }
+    .navbar-nav .nav-item .nav-link {
+        margin: 0.2rem 0;
+    }
+
+    /* hero part */
+    .hero_content .hero h1 {
+        font-size: 2.3rem;
+    }
+    .hero_content .hero p {
+        width: 85%;
+    }
+
+    /* expertise part */
+    .expertise_content .expertise_img {
+        display: none;
+    }
+    .expertise_content .expertise_text .expertise_heading p {
+        width: 100%;
+    }
+    .portfolio_content .portfolio_img {
+        display: none;
+    }
+
+    /* about_part */
+    .about_content .about_item .about_img {
+        height: 11rem;
+        width: auto;
+        margin-bottom: 14rem;
+    }
+    .about_content .about_item .about .about_text_1 {
+        text-align: center;
+        top: calc(100% + 2rem);
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about_content .about_item .about .about_text_2 {
+        text-align: center;
+        top: calc(100% + 2.5rem);
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about_content .about_item .about_img:last-child {
+        margin-bottom: 0;
+    }
+
+    /* team part */
+    .team_content .team_p {
+        width: 90%;
+        font-size: 0.85rem;
+    }
+
+    /* contact */
+    .contact_content .contact {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .contact_content .contact .contact_link {
+        flex-direction: column;
+        gap: 0.5rem !important;
+    }
+    .contact_content .form {
+        margin-top: 0.5rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
